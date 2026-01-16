@@ -1,0 +1,289 @@
+/**
+ * Size Guide Modal - Main Styles
+ * Used on both frontend and editor
+ */
+
+/* Block Wrapper */
+.wp-block-sciuuussize-size-guide-modal {
+    margin: 1rem 0;
+}
+
+.sciuuus-align-left {
+    text-align: left;
+}
+
+.sciuuus-align-center {
+    text-align: center;
+}
+
+.sciuuus-align-right {
+    text-align: right;
+}
+
+/* Button Styles */
+.sciuuus-size-guide-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    line-height: 1.5;
+}
+
+.sciuuus-size-guide-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Primary Button Style */
+.sciuuus-button-primary {
+    background-color: #0073aa;
+    color: #ffffff;
+    border-color: #0073aa;
+}
+
+.sciuuus-button-primary:hover:not(:disabled) {
+    background-color: #005177;
+    border-color: #005177;
+}
+
+/* Secondary Button Style */
+.sciuuus-button-secondary {
+    background-color: #f0f0f1;
+    color: #2c3338;
+    border-color: #2c3338;
+}
+
+.sciuuus-button-secondary:hover:not(:disabled) {
+    background-color: #dcdcde;
+}
+
+/* Outline Button Style */
+.sciuuus-button-outline {
+    background-color: transparent;
+    color: #0073aa;
+    border-color: #0073aa;
+}
+
+.sciuuus-button-outline:hover:not(:disabled) {
+    background-color: #0073aa;
+    color: #ffffff;
+}
+
+/* Color Indicator Circle */
+.sciuuus-color-indicator {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    flex-shrink: 0;
+}
+
+/* Modal Overlay */
+.sciuuus-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.sciuuus-modal.active {
+    display: flex;
+}
+
+.sciuuus-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+}
+
+/* Modal Content */
+.sciuuus-modal-content {
+    position: relative;
+    background: #ffffff;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    animation: sciuuusModalSlideIn 0.3s ease-out;
+}
+
+@keyframes sciuuusModalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Close Button */
+.sciuuus-modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    line-height: 1;
+    color: #666;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    transition: color 0.2s;
+    z-index: 10;
+}
+
+.sciuuus-modal-close:hover {
+    color: #000;
+}
+
+/* Modal Body */
+.sciuuus-modal-body {
+    padding: 2rem;
+}
+
+/* Modal Header */
+.sciuuus-modal-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f1;
+}
+
+.sciuuus-modal-header h2 {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.75rem;
+    color: #2c3338;
+}
+
+.sciuuus-guide-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sciuuus-color-badge {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #dcdcde;
+}
+
+.sciuuus-guide-label {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Size Table */
+.sciuuus-size-table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+
+.sciuuus-size-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.sciuuus-size-table thead {
+    background-color: #f8f9fa;
+}
+
+.sciuuus-size-table th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #2c3338;
+    border-bottom: 2px solid #dcdcde;
+}
+
+.sciuuus-size-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.sciuuus-size-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.sciuuus-size-number {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #0073aa;
+}
+
+/* Modal Footer */
+.sciuuus-modal-footer {
+    padding-top: 1rem;
+    border-top: 1px solid #f0f0f1;
+}
+
+.sciuuus-modal-footer p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sciuuus-modal-content {
+        width: 95%;
+        max-height: 95vh;
+    }
+
+    .sciuuus-modal-body {
+        padding: 1.5rem;
+    }
+
+    .sciuuus-modal-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .sciuuus-size-table {
+        font-size: 0.85rem;
+    }
+
+    .sciuuus-size-table th,
+    .sciuuus-size-table td {
+        padding: 0.5rem 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sciuuus-size-guide-button {
+        padding: 0.625rem 1.25rem;
+        font-size: 0.9rem;
+    }
+
+    .sciuuus-modal-body {
+        padding: 1rem;
+    }
+
+    .sciuuus-size-table th,
+    .sciuuus-size-table td {
+        padding: 0.5rem;
+    }
+}

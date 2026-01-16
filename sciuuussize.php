@@ -126,3 +126,48 @@ function sciuuussize_parse_elementor_placeholder($content) {
 
 add_filter('widget_text', 'sciuuussize_parse_elementor_placeholder');
 add_filter('widget_text_content', 'sciuuussize_parse_elementor_placeholder');
+
+
+// Register product meta for REST API access (needed by Gutenberg editor)
+function sciuuussize_register_product_meta() {
+    register_post_meta('product', '_size_guide_color', array(
+        'type' => 'string',
+        'single' => true,
+        'show_in_rest' => true,
+        'default' => 'arancione',
+        'sanitize_callback' => 'sanitize_text_field',
+        'auth_callback' => function() {
+            return current_user_can('edit_posts');
+        }
+    ));
+
+    register_post_meta('product', '_size_guide_slug', array(
+        'type' => 'string',
+        'single' => true,
+        'show_in_rest' => true,
+        'default' => '',
+        'sanitize_callback' => 'sanitize_text_field',
+        'auth_callback' => function() {
+            return current_user_can('edit_posts');
+        }
+    ));
+}
+add_action('init', 'sciuuussize_register_product_meta');
+
+
+// Register Gutenberg Block for Size Guide Modal
+function sciuuussize_register_size_guide_block() {
+    // Register the block
+    register_block_type(__DIR__ . '/blocks/size-guide-modal');
+
+    // Make shoe sizes data available to JavaScript
+    wp_localize_script(
+        'sciuuussize-size-guide-modal-view-script',
+        'sciuusSizeData',
+        array(
+            'jsonUrl' => plugin_dir_url(__FILE__) . 'data/shoe-sizes.json',
+            'colorMap' => SCIUUSSIZE_COLOR_MAP
+        )
+    );
+}
+add_action('init', 'sciuuussize_register_size_guide_block');

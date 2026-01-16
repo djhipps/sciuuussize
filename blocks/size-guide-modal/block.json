@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "sciuuussize/size-guide-modal",
+  "version": "1.0.0",
+  "title": "Size Guide Modal",
+  "category": "widgets",
+  "icon": "editor-table",
+  "description": "Display a button that opens a modal with shoe size guide information",
+  "keywords": ["size", "guide", "shoe", "scarpe", "taglia"],
+  "supports": {
+    "html": false,
+    "align": true,
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "default": "Guida alle taglie"
+    },
+    "buttonStyle": {
+      "type": "string",
+      "default": "primary"
+    },
+    "showColorIndicator": {
+      "type": "boolean",
+      "default": true
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    }
+  },
+  "textdomain": "sciuuussize",
+  "editorScript": "file:./edit.js",
+  "viewScript": "file:./view.js",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

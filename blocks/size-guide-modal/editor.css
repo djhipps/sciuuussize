@@ -1,0 +1,30 @@
+/**
+ * Size Guide Modal - Editor Styles
+ * Used only in the block editor
+ */
+
+.sciuuus-size-guide-editor-preview {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border: 1px dashed #dcdcde;
+    border-radius: 4px;
+}
+
+.sciuuus-editor-note {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-left: 3px solid #0073aa;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.sciuuus-editor-note strong {
+    font-weight: 600;
+}
+
+/* Make button look disabled in editor */
+.sciuuus-size-guide-editor-preview .sciuuus-size-guide-button {
+    cursor: default;
+}

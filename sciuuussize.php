@@ -171,3 +171,53 @@ function sciuuussize_register_size_guide_block() {
     );
 }
 add_action('init', 'sciuuussize_register_size_guide_block');
+
+
+// Automatically display size guide button on all product pages
+function sciuuussize_auto_display_size_guide() {
+    // Only display on single product pages
+    if (!is_product()) {
+        return;
+    }
+
+    global $product;
+    if (!$product) {
+        return;
+    }
+
+    // Get the product color meta
+    $post_id = get_the_ID();
+    $size_guide_color = get_post_meta($post_id, '_size_guide_color', true);
+    if (empty($size_guide_color)) {
+        $size_guide_color = 'arancione'; // Default
+    }
+
+    // Get color data
+    $color_map = SCIUUSSIZE_COLOR_MAP;
+    $color_data = $color_map[$size_guide_color] ?? $color_map['arancione'];
+
+    // Render the size guide button with default settings
+    $button_text = 'Guida alle taglie';
+    $button_style = 'primary';
+    $show_color = true;
+    $alignment = 'left';
+
+    ?>
+    <div class="wp-block-sciuuussize-size-guide-modal sciuuus-size-guide-wrapper sciuuus-align-<?php echo esc_attr($alignment); ?> sciuuus-auto-inserted" data-size-guide-color="<?php echo esc_attr($size_guide_color); ?>" style="margin: 1rem 0;">
+        <button class="sciuuus-size-guide-button sciuuus-button-<?php echo esc_attr($button_style); ?>" type="button">
+            <?php echo esc_html($button_text); ?>
+            <?php if ($show_color) : ?>
+                <span
+                    class="sciuuus-color-indicator"
+                    style="background-color: <?php echo esc_attr($color_data['hex']); ?>;"
+                    title="<?php echo esc_attr($color_data['label']); ?>"
+                ></span>
+            <?php endif; ?>
+        </button>
+    </div>
+    <?php
+}
+
+// Hook it to display after size picker, before add to cart button
+// Priority 25 places it after variations (20) but before add to cart (30)
+add_action('woocommerce_single_product_summary', 'sciuuussize_auto_display_size_guide', 25);

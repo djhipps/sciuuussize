@@ -159,10 +159,36 @@ add_action('init', 'sciuuussize_register_product_meta');
 function sciuuussize_register_size_guide_block() {
     // Register the block
     register_block_type(__DIR__ . '/blocks/size-guide-modal');
+}
+add_action('init', 'sciuuussize_register_size_guide_block');
+
+// Enqueue frontend scripts and styles
+function sciuuussize_enqueue_frontend_assets() {
+    // Only load on single product pages
+    if (!is_product()) {
+        return;
+    }
+
+    // Enqueue the view script
+    wp_enqueue_script(
+        'sciuuussize-modal-view',
+        plugin_dir_url(__FILE__) . 'blocks/size-guide-modal/view.js',
+        array(),
+        '1.0.0',
+        true
+    );
+
+    // Enqueue the styles
+    wp_enqueue_style(
+        'sciuuussize-modal-style',
+        plugin_dir_url(__FILE__) . 'blocks/size-guide-modal/style.css',
+        array(),
+        '1.0.0'
+    );
 
     // Make shoe sizes data available to JavaScript
     wp_localize_script(
-        'sciuuussize-size-guide-modal-view-script',
+        'sciuuussize-modal-view',
         'sciuusSizeData',
         array(
             'jsonUrl' => plugin_dir_url(__FILE__) . 'data/shoe-sizes.json',
@@ -170,7 +196,7 @@ function sciuuussize_register_size_guide_block() {
         )
     );
 }
-add_action('init', 'sciuuussize_register_size_guide_block');
+add_action('wp_enqueue_scripts', 'sciuuussize_enqueue_frontend_assets');
 
 
 // Automatically display size guide button on all product pages
@@ -218,6 +244,6 @@ function sciuuussize_auto_display_size_guide() {
     <?php
 }
 
-// Hook it to display after size picker, before add to cart button
-// Priority 25 places it after variations (20) but before add to cart (30)
-add_action('woocommerce_single_product_summary', 'sciuuussize_auto_display_size_guide', 25);
+// Hook it to display after size variations, before add to cart button
+// This hook places it inside the form, right before the add to cart button
+add_action('woocommerce_before_add_to_cart_button', 'sciuuussize_auto_display_size_guide', 10);

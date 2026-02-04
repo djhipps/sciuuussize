@@ -175,7 +175,7 @@ function sciuuussize_enqueue_frontend_assets() {
         'sciuuussize-modal-view',
         plugin_dir_url(__FILE__) . 'blocks/size-guide-modal/view.js',
         array(),
-        '1.0.0',
+        filemtime(__DIR__ . '/blocks/size-guide-modal/view.js'),
         true
     );
 
@@ -184,7 +184,7 @@ function sciuuussize_enqueue_frontend_assets() {
         'sciuuussize-modal-style',
         plugin_dir_url(__FILE__) . 'blocks/size-guide-modal/style.css',
         array(),
-        '1.0.0'
+        filemtime(__DIR__ . '/blocks/size-guide-modal/style.css')
     );
 
     // Make shoe sizes data available to JavaScript

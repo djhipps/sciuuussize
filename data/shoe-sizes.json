@@ -66,6 +66,21 @@
           { "taglia": 34, "lunghezza_suola_cm": 21.9, "larghezza_suola_cm": 8.1 },
           { "taglia": 35, "lunghezza_suola_cm": 22.6, "larghezza_suola_cm": 9.0 }
         ]
+      },
+      "blu_notte": {
+        "label": "Guida blu notte",
+        "sizes": [
+          { "taglia": 25, "lunghezza_suola_cm": 16.2, "larghezza_suola_cm": 6.8 },
+          { "taglia": 26, "lunghezza_suola_cm": 16.8, "larghezza_suola_cm": 6.9 },
+          { "taglia": 27, "lunghezza_suola_cm": 17.6, "larghezza_suola_cm": 7.1 },
+          { "taglia": 28, "lunghezza_suola_cm": 18.2, "larghezza_suola_cm": 7.2 },
+          { "taglia": 29, "lunghezza_suola_cm": 18.9, "larghezza_suola_cm": 7.3 },
+          { "taglia": 30, "lunghezza_suola_cm": 19.5, "larghezza_suola_cm": 7.5 },
+          { "taglia": 31, "lunghezza_suola_cm": 20.1, "larghezza_suola_cm": 7.6 },
+          { "taglia": 32, "lunghezza_suola_cm": 21.6, "larghezza_suola_cm": 7.8 },
+          { "taglia": 33, "lunghezza_suola_cm": 22.3, "larghezza_suola_cm": 7.9 },
+          { "taglia": 34, "lunghezza_suola_cm": 26.4, "larghezza_suola_cm": 8.1 }
+        ]
       }
     }
   },

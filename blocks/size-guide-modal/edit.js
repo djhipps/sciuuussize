@@ -20,7 +20,8 @@ export default function Edit({ attributes, setAttributes }) {
         'arancione': { hex: '#FC7D06', label: 'arancione' },
         'verde': { hex: '#009285', label: 'verde' },
         'rosso': { hex: '#f40057', label: 'rosso' },
-        'giallo': { hex: '#FFD700', label: 'giallo' }
+        'giallo': { hex: '#FFD700', label: 'giallo' },
+        'blu_notte': { hex: '#2E3A8C', label: 'blu notte' }
     };
 
     const currentColor = colorMap[sizeGuideColor] || colorMap['arancione'];

@@ -21,7 +21,8 @@ $color_map = array(
     'arancione' => array('hex' => '#FC7D06', 'label' => 'arancione'),
     'verde'     => array('hex' => '#009285', 'label' => 'verde'),
     'rosso'     => array('hex' => '#f40057', 'label' => 'rosso'),
-    'giallo'    => array('hex' => '#FFD700', 'label' => 'giallo')
+    'giallo'    => array('hex' => '#FFD700', 'label' => 'giallo'),
+    'blu_notte' => array('hex' => '#2E3A8C', 'label' => 'blu notte')
 );
 
 $color_data = $color_map[$size_guide_color] ?? $color_map['arancione'];

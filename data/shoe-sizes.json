@@ -5,45 +5,181 @@
       "verde": {
         "label": "Guida verde",
         "sizes": [
-          { "taglia": 18, "lunghezza_suola_cm": 11.8, "larghezza_suola_cm": 5.3 },
-          { "taglia": 19, "lunghezza_suola_cm": 12.4, "larghezza_suola_cm": 5.4 },
-          { "taglia": 20, "lunghezza_suola_cm": 13.1, "larghezza_suola_cm": 5.6 },
-          { "taglia": 21, "lunghezza_suola_cm": 13.7, "larghezza_suola_cm": 5.7 },
-          { "taglia": 22, "lunghezza_suola_cm": 14.5, "larghezza_suola_cm": 5.8 },
-          { "taglia": 23, "lunghezza_suola_cm": 15.1, "larghezza_suola_cm": 6.0 },
-          { "taglia": 24, "lunghezza_suola_cm": 15.7, "larghezza_suola_cm": 6.1 },
-          { "taglia": 25, "lunghezza_suola_cm": 16.5, "larghezza_suola_cm": 6.2 },
-          { "taglia": 26, "lunghezza_suola_cm": 16.7, "larghezza_suola_cm": 6.8 },
-          { "taglia": 27, "lunghezza_suola_cm": 17.3, "larghezza_suola_cm": 6.9 },
-          { "taglia": 28, "lunghezza_suola_cm": 17.9, "larghezza_suola_cm": 7.1 },
-          { "taglia": 29, "lunghezza_suola_cm": 18.7, "larghezza_suola_cm": 7.3 },
-          { "taglia": 30, "lunghezza_suola_cm": 19.3, "larghezza_suola_cm": 7.5 },
-          { "taglia": 31, "lunghezza_suola_cm": 20.0, "larghezza_suola_cm": 7.6 },
-          { "taglia": 32, "lunghezza_suola_cm": 20.7, "larghezza_suola_cm": 7.8 },
-          { "taglia": 33, "lunghezza_suola_cm": 21.5, "larghezza_suola_cm": 8.0 },
-          { "taglia": 34, "lunghezza_suola_cm": 22.1, "larghezza_suola_cm": 8.1 },
-          { "taglia": 35, "lunghezza_suola_cm": 22.8, "larghezza_suola_cm": 8.2 }
+          {
+            "taglia": 18,
+            "lunghezza_suola_cm": 11.8,
+            "larghezza_suola_cm": 5.3
+          },
+          {
+            "taglia": 19,
+            "lunghezza_suola_cm": 12.4,
+            "larghezza_suola_cm": 5.4
+          },
+          {
+            "taglia": 20,
+            "lunghezza_suola_cm": 13.1,
+            "larghezza_suola_cm": 5.6
+          },
+          {
+            "taglia": 21,
+            "lunghezza_suola_cm": 13.7,
+            "larghezza_suola_cm": 5.7
+          },
+          {
+            "taglia": 22,
+            "lunghezza_suola_cm": 14.5,
+            "larghezza_suola_cm": 5.8
+          },
+          {
+            "taglia": 23,
+            "lunghezza_suola_cm": 15.1,
+            "larghezza_suola_cm": 6.0
+          },
+          {
+            "taglia": 24,
+            "lunghezza_suola_cm": 15.7,
+            "larghezza_suola_cm": 6.1
+          },
+          {
+            "taglia": 25,
+            "lunghezza_suola_cm": 16.5,
+            "larghezza_suola_cm": 6.2
+          },
+          {
+            "taglia": 26,
+            "lunghezza_suola_cm": 16.7,
+            "larghezza_suola_cm": 6.8
+          },
+          {
+            "taglia": 27,
+            "lunghezza_suola_cm": 17.3,
+            "larghezza_suola_cm": 6.9
+          },
+          {
+            "taglia": 28,
+            "lunghezza_suola_cm": 17.9,
+            "larghezza_suola_cm": 7.1
+          },
+          {
+            "taglia": 29,
+            "lunghezza_suola_cm": 18.7,
+            "larghezza_suola_cm": 7.3
+          },
+          {
+            "taglia": 30,
+            "lunghezza_suola_cm": 19.3,
+            "larghezza_suola_cm": 7.5
+          },
+          {
+            "taglia": 31,
+            "lunghezza_suola_cm": 20.0,
+            "larghezza_suola_cm": 7.6
+          },
+          {
+            "taglia": 32,
+            "lunghezza_suola_cm": 20.7,
+            "larghezza_suola_cm": 7.8
+          },
+          {
+            "taglia": 33,
+            "lunghezza_suola_cm": 21.5,
+            "larghezza_suola_cm": 8.0
+          },
+          {
+            "taglia": 34,
+            "lunghezza_suola_cm": 22.1,
+            "larghezza_suola_cm": 8.1
+          },
+          {
+            "taglia": 35,
+            "lunghezza_suola_cm": 22.8,
+            "larghezza_suola_cm": 8.2
+          }
         ]
       },
       "rosso": {
         "label": "Guida rosso",
         "sizes": [
-          { "taglia": 19, "lunghezza_suola_cm": 12.1, "larghezza_suola_cm": 5.7 },
-          { "taglia": 20, "lunghezza_suola_cm": 12.7, "larghezza_suola_cm": 5.8 },
-          { "taglia": 21, "lunghezza_suola_cm": 13.3, "larghezza_suola_cm": 5.9 },
-          { "taglia": 22, "lunghezza_suola_cm": 14.0, "larghezza_suola_cm": 6.1 },
-          { "taglia": 23, "lunghezza_suola_cm": 14.6, "larghezza_suola_cm": 6.2 },
-          { "taglia": 24, "lunghezza_suola_cm": 15.3, "larghezza_suola_cm": 6.4 },
-          { "taglia": 25, "lunghezza_suola_cm": 16.0, "larghezza_suola_cm": 6.5 },
-          { "taglia": 26, "lunghezza_suola_cm": 16.7, "larghezza_suola_cm": 6.8 },
-          { "taglia": 27, "lunghezza_suola_cm": 17.3, "larghezza_suola_cm": 6.9 },
-          { "taglia": 28, "lunghezza_suola_cm": 17.9, "larghezza_suola_cm": 7.1 },
-          { "taglia": 29, "lunghezza_suola_cm": 18.7, "larghezza_suola_cm": 7.3 },
-          { "taglia": 30, "lunghezza_suola_cm": 19.3, "larghezza_suola_cm": 7.5 },
-          { "taglia": 31, "lunghezza_suola_cm": 20.0, "larghezza_suola_cm": 7.6 },
-          { "taglia": 32, "lunghezza_suola_cm": 20.7, "larghezza_suola_cm": 7.8 },
-          { "taglia": 33, "lunghezza_suola_cm": 21.5, "larghezza_suola_cm": 8.0 },
-          { "taglia": 34, "lunghezza_suola_cm": 22.1, "larghezza_suola_cm": 8.1 }
+          {
+            "taglia": 19,
+            "lunghezza_suola_cm": 12.1,
+            "larghezza_suola_cm": 5.7
+          },
+          {
+            "taglia": 20,
+            "lunghezza_suola_cm": 12.7,
+            "larghezza_suola_cm": 5.8
+          },
+          {
+            "taglia": 21,
+            "lunghezza_suola_cm": 13.3,
+            "larghezza_suola_cm": 5.9
+          },
+          {
+            "taglia": 22,
+            "lunghezza_suola_cm": 14.0,
+            "larghezza_suola_cm": 6.1
+          },
+          {
+            "taglia": 23,
+            "lunghezza_suola_cm": 14.6,
+            "larghezza_suola_cm": 6.2
+          },
+          {
+            "taglia": 24,
+            "lunghezza_suola_cm": 15.3,
+            "larghezza_suola_cm": 6.4
+          },
+          {
+            "taglia": 25,
+            "lunghezza_suola_cm": 16.0,
+            "larghezza_suola_cm": 6.5
+          },
+          {
+            "taglia": 26,
+            "lunghezza_suola_cm": 16.7,
+            "larghezza_suola_cm": 6.8
+          },
+          {
+            "taglia": 27,
+            "lunghezza_suola_cm": 17.3,
+            "larghezza_suola_cm": 6.9
+          },
+          {
+            "taglia": 28,
+            "lunghezza_suola_cm": 17.9,
+            "larghezza_suola_cm": 7.1
+          },
+          {
+            "taglia": 29,
+            "lunghezza_suola_cm": 18.7,
+            "larghezza_suola_cm": 7.3
+          },
+          {
+            "taglia": 30,
+            "lunghezza_suola_cm": 19.3,
+            "larghezza_suola_cm": 7.5
+          },
+          {
+            "taglia": 31,
+            "lunghezza_suola_cm": 20.0,
+            "larghezza_suola_cm": 7.6
+          },
+          {
+            "taglia": 32,
+            "lunghezza_suola_cm": 20.7,
+            "larghezza_suola_cm": 7.8
+          },
+          {
+            "taglia": 33,
+            "lunghezza_suola_cm": 21.5,
+            "larghezza_suola_cm": 8.0
+          },
+          {
+            "taglia": 34,
+            "lunghezza_suola_cm": 22.1,
+            "larghezza_suola_cm": 8.1
+          }
         ]
       }
     }
@@ -54,32 +190,241 @@
       "arancione": {
         "label": "Guida arancione",
         "sizes": [
-          { "taglia": 25, "lunghezza_suola_cm": 16.0, "larghezza_suola_cm": 6.9 },
-          { "taglia": 26, "lunghezza_suola_cm": 16.6, "larghezza_suola_cm": 7.1 },
-          { "taglia": 27, "lunghezza_suola_cm": 17.3, "larghezza_suola_cm": 7.2 },
-          { "taglia": 28, "lunghezza_suola_cm": 18.1, "larghezza_suola_cm": 7.3 },
-          { "taglia": 29, "lunghezza_suola_cm": 18.7, "larghezza_suola_cm": 7.4 },
-          { "taglia": 30, "lunghezza_suola_cm": 19.4, "larghezza_suola_cm": 7.6 },
-          { "taglia": 31, "lunghezza_suola_cm": 20.1, "larghezza_suola_cm": 7.7 },
-          { "taglia": 32, "lunghezza_suola_cm": 20.7, "larghezza_suola_cm": 7.8 },
-          { "taglia": 33, "lunghezza_suola_cm": 21.4, "larghezza_suola_cm": 7.9 },
-          { "taglia": 34, "lunghezza_suola_cm": 21.9, "larghezza_suola_cm": 8.1 },
-          { "taglia": 35, "lunghezza_suola_cm": 22.6, "larghezza_suola_cm": 9.0 }
+          {
+            "taglia": 25,
+            "lunghezza_suola_cm": 16.0,
+            "larghezza_suola_cm": 6.9
+          },
+          {
+            "taglia": 26,
+            "lunghezza_suola_cm": 16.6,
+            "larghezza_suola_cm": 7.1
+          },
+          {
+            "taglia": 27,
+            "lunghezza_suola_cm": 17.3,
+            "larghezza_suola_cm": 7.2
+          },
+          {
+            "taglia": 28,
+            "lunghezza_suola_cm": 18.1,
+            "larghezza_suola_cm": 7.3
+          },
+          {
+            "taglia": 29,
+            "lunghezza_suola_cm": 18.7,
+            "larghezza_suola_cm": 7.4
+          },
+          {
+            "taglia": 30,
+            "lunghezza_suola_cm": 19.4,
+            "larghezza_suola_cm": 7.6
+          },
+          {
+            "taglia": 31,
+            "lunghezza_suola_cm": 20.1,
+            "larghezza_suola_cm": 7.7
+          },
+          {
+            "taglia": 32,
+            "lunghezza_suola_cm": 20.7,
+            "larghezza_suola_cm": 7.8
+          },
+          {
+            "taglia": 33,
+            "lunghezza_suola_cm": 21.4,
+            "larghezza_suola_cm": 7.9
+          },
+          {
+            "taglia": 34,
+            "lunghezza_suola_cm": 21.9,
+            "larghezza_suola_cm": 8.1
+          },
+          {
+            "taglia": 35,
+            "lunghezza_suola_cm": 22.6,
+            "larghezza_suola_cm": 9.0
+          }
         ]
       },
       "blu_notte": {
         "label": "Guida blu notte",
         "sizes": [
-          { "taglia": 25, "lunghezza_suola_cm": 16.2, "larghezza_suola_cm": 6.8 },
-          { "taglia": 26, "lunghezza_suola_cm": 16.8, "larghezza_suola_cm": 6.9 },
-          { "taglia": 27, "lunghezza_suola_cm": 17.6, "larghezza_suola_cm": 7.1 },
-          { "taglia": 28, "lunghezza_suola_cm": 18.2, "larghezza_suola_cm": 7.2 },
-          { "taglia": 29, "lunghezza_suola_cm": 18.9, "larghezza_suola_cm": 7.3 },
-          { "taglia": 30, "lunghezza_suola_cm": 19.5, "larghezza_suola_cm": 7.5 },
-          { "taglia": 31, "lunghezza_suola_cm": 20.1, "larghezza_suola_cm": 7.6 },
-          { "taglia": 32, "lunghezza_suola_cm": 21.6, "larghezza_suola_cm": 7.8 },
-          { "taglia": 33, "lunghezza_suola_cm": 22.3, "larghezza_suola_cm": 7.9 },
-          { "taglia": 34, "lunghezza_suola_cm": 26.4, "larghezza_suola_cm": 8.1 }
+          {
+            "taglia": 25,
+            "lunghezza_suola_cm": 16.2,
+            "larghezza_suola_cm": 6.8
+          },
+          {
+            "taglia": 26,
+            "lunghezza_suola_cm": 16.8,
+            "larghezza_suola_cm": 6.9
+          },
+          {
+            "taglia": 27,
+            "lunghezza_suola_cm": 17.6,
+            "larghezza_suola_cm": 7.1
+          },
+          {
+            "taglia": 28,
+            "lunghezza_suola_cm": 18.2,
+            "larghezza_suola_cm": 7.2
+          },
+          {
+            "taglia": 29,
+            "lunghezza_suola_cm": 18.9,
+            "larghezza_suola_cm": 7.3
+          },
+          {
+            "taglia": 30,
+            "lunghezza_suola_cm": 19.5,
+            "larghezza_suola_cm": 7.5
+          },
+          {
+            "taglia": 31,
+            "lunghezza_suola_cm": 20.1,
+            "larghezza_suola_cm": 7.6
+          },
+          {
+            "taglia": 32,
+            "lunghezza_suola_cm": 21.6,
+            "larghezza_suola_cm": 7.8
+          },
+          {
+            "taglia": 33,
+            "lunghezza_suola_cm": 22.3,
+            "larghezza_suola_cm": 7.9
+          },
+          {
+            "taglia": 34,
+            "lunghezza_suola_cm": 26.4,
+            "larghezza_suola_cm": 8.1
+          }
+        ]
+      }
+    }
+  },
+  "adulti": {
+    "label": "Adulti",
+    "guides": {
+      "viola_prugna": {
+        "label": "Guida viola prugna",
+        "sizes": [
+          {
+            "taglia": 35,
+            "lunghezza_suola_cm": 23.4,
+            "larghezza_suola_cm": 9.0
+          },
+          {
+            "taglia": 36,
+            "lunghezza_suola_cm": 24.0,
+            "larghezza_suola_cm": 9.2
+          },
+          {
+            "taglia": 37,
+            "lunghezza_suola_cm": 24.7,
+            "larghezza_suola_cm": 9.3
+          },
+          {
+            "taglia": 38,
+            "lunghezza_suola_cm": 25.2,
+            "larghezza_suola_cm": 9.4
+          },
+          {
+            "taglia": 39,
+            "lunghezza_suola_cm": 25.9,
+            "larghezza_suola_cm": 9.5
+          },
+          {
+            "taglia": 40,
+            "lunghezza_suola_cm": 26.6,
+            "larghezza_suola_cm": 9.7
+          },
+          {
+            "taglia": 41,
+            "lunghezza_suola_cm": 27.2,
+            "larghezza_suola_cm": 9.9
+          },
+          {
+            "taglia": 42,
+            "lunghezza_suola_cm": 27.9,
+            "larghezza_suola_cm": 10.1
+          },
+          {
+            "taglia": 43,
+            "lunghezza_suola_cm": 28.5,
+            "larghezza_suola_cm": 10.3
+          },
+          {
+            "taglia": 44,
+            "lunghezza_suola_cm": 29.1,
+            "larghezza_suola_cm": 10.6
+          },
+          {
+            "taglia": 45,
+            "lunghezza_suola_cm": 29.7,
+            "larghezza_suola_cm": 10.8
+          },
+          {
+            "taglia": 46,
+            "lunghezza_suola_cm": 30.3,
+            "larghezza_suola_cm": 10.9
+          },
+          {
+            "taglia": 47,
+            "lunghezza_suola_cm": 31.0,
+            "larghezza_suola_cm": 11.1
+          }
+        ]
+      },
+      "turchese_onda": {
+        "label": "Guida turchese onda",
+        "sizes": [
+          {
+            "taglia": 35,
+            "lunghezza_suola_cm": 22.7,
+            "larghezza_suola_cm": 8.8
+          },
+          {
+            "taglia": 36,
+            "lunghezza_suola_cm": 23.4,
+            "larghezza_suola_cm": 8.9
+          },
+          {
+            "taglia": 37,
+            "lunghezza_suola_cm": 24.2,
+            "larghezza_suola_cm": 9.0
+          },
+          {
+            "taglia": 38,
+            "lunghezza_suola_cm": 24.6,
+            "larghezza_suola_cm": 9.2
+          },
+          {
+            "taglia": 39,
+            "lunghezza_suola_cm": 25.4,
+            "larghezza_suola_cm": 9.5
+          },
+          {
+            "taglia": 40,
+            "lunghezza_suola_cm": 26.0,
+            "larghezza_suola_cm": 9.6
+          },
+          {
+            "taglia": 41,
+            "lunghezza_suola_cm": 26.9,
+            "larghezza_suola_cm": 9.8
+          },
+          {
+            "taglia": 42,
+            "lunghezza_suola_cm": 27.4,
+            "larghezza_suola_cm": 9.9
+          },
+          {
+            "taglia": 43,
+            "lunghezza_suola_cm": 28.1,
+            "larghezza_suola_cm": 10.2
+          }
         ]
       }
     }
@@ -90,21 +435,81 @@
       "giallo": {
         "label": "Guida giallo",
         "sizes": [
-          { "taglia": 20, "lunghezza_suola_cm": 13.0, "larghezza_suola_cm": 5.9 },
-          { "taglia": 21, "lunghezza_suola_cm": 13.6, "larghezza_suola_cm": 6.0 },
-          { "taglia": 22, "lunghezza_suola_cm": 14.2, "larghezza_suola_cm": 6.0 },
-          { "taglia": 23, "lunghezza_suola_cm": 15.0, "larghezza_suola_cm": 6.1 },
-          { "taglia": 24, "lunghezza_suola_cm": 15.5, "larghezza_suola_cm": 6.2 },
-          { "taglia": 25, "lunghezza_suola_cm": 16.0, "larghezza_suola_cm": 6.3 },
-          { "taglia": 26, "lunghezza_suola_cm": 16.6, "larghezza_suola_cm": 6.5 },
-          { "taglia": 27, "lunghezza_suola_cm": 17.2, "larghezza_suola_cm": 6.7 },
-          { "taglia": 28, "lunghezza_suola_cm": 17.9, "larghezza_suola_cm": 6.9 },
-          { "taglia": 29, "lunghezza_suola_cm": 18.6, "larghezza_suola_cm": 7.0 },
-          { "taglia": 30, "lunghezza_suola_cm": 19.3, "larghezza_suola_cm": 7.1 },
-          { "taglia": 31, "lunghezza_suola_cm": 19.9, "larghezza_suola_cm": 7.2 },
-          { "taglia": 32, "lunghezza_suola_cm": 20.5, "larghezza_suola_cm": 7.3 },
-          { "taglia": 33, "lunghezza_suola_cm": 21.2, "larghezza_suola_cm": 7.4 },
-          { "taglia": 34, "lunghezza_suola_cm": 21.9, "larghezza_suola_cm": 7.8 }
+          {
+            "taglia": 20,
+            "lunghezza_suola_cm": 13.0,
+            "larghezza_suola_cm": 5.9
+          },
+          {
+            "taglia": 21,
+            "lunghezza_suola_cm": 13.6,
+            "larghezza_suola_cm": 6.0
+          },
+          {
+            "taglia": 22,
+            "lunghezza_suola_cm": 14.2,
+            "larghezza_suola_cm": 6.0
+          },
+          {
+            "taglia": 23,
+            "lunghezza_suola_cm": 15.0,
+            "larghezza_suola_cm": 6.1
+          },
+          {
+            "taglia": 24,
+            "lunghezza_suola_cm": 15.5,
+            "larghezza_suola_cm": 6.2
+          },
+          {
+            "taglia": 25,
+            "lunghezza_suola_cm": 16.0,
+            "larghezza_suola_cm": 6.3
+          },
+          {
+            "taglia": 26,
+            "lunghezza_suola_cm": 16.6,
+            "larghezza_suola_cm": 6.5
+          },
+          {
+            "taglia": 27,
+            "lunghezza_suola_cm": 17.2,
+            "larghezza_suola_cm": 6.7
+          },
+          {
+            "taglia": 28,
+            "lunghezza_suola_cm": 17.9,
+            "larghezza_suola_cm": 6.9
+          },
+          {
+            "taglia": 29,
+            "lunghezza_suola_cm": 18.6,
+            "larghezza_suola_cm": 7.0
+          },
+          {
+            "taglia": 30,
+            "lunghezza_suola_cm": 19.3,
+            "larghezza_suola_cm": 7.1
+          },
+          {
+            "taglia": 31,
+            "lunghezza_suola_cm": 19.9,
+            "larghezza_suola_cm": 7.2
+          },
+          {
+            "taglia": 32,
+            "lunghezza_suola_cm": 20.5,
+            "larghezza_suola_cm": 7.3
+          },
+          {
+            "taglia": 33,
+            "lunghezza_suola_cm": 21.2,
+            "larghezza_suola_cm": 7.4
+          },
+          {
+            "taglia": 34,
+            "lunghezza_suola_cm": 21.9,
+            "larghezza_suola_cm": 7.8
+          }
         ]
       }
     }

@@ -24,7 +24,8 @@ $color_map = array(
     'giallo'    => array('hex' => '#FFD700', 'label' => 'giallo'),
     'blu_notte' => array('hex' => '#2E3A8C', 'label' => 'blu notte'),
     'viola_prugna' => array('hex' => '#7D3C98', 'label' => 'viola prugna'),
-    'turchese_onda' => array('hex' => '#14B8A6', 'label' => 'turchese onda')
+    'turchese_onda' => array('hex' => '#14B8A6', 'label' => 'turchese onda'),
+    'rosa'         => array('hex' => '#FF69B4', 'label' => 'rosa')
 );
 
 $color_data = $color_map[$size_guide_color] ?? $color_map['arancione'];

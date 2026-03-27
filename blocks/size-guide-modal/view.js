@@ -14,7 +14,8 @@ const colorToTypeMapping = {
     'giallo': { type: 'sandali', guide: 'giallo' },
     'blu_notte': { type: 'scarpe_bambini', guide: 'blu_notte' },
     'viola_prugna': { type: 'adulti', guide: 'viola_prugna' },
-    'turchese_onda': { type: 'adulti', guide: 'turchese_onda' }
+    'turchese_onda': { type: 'adulti', guide: 'turchese_onda' },
+    'rosa': { type: 'scarpe_bambini', guide: 'rosa' }
 };
 
 /**

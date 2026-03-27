@@ -247,6 +247,56 @@
           }
         ]
       },
+      "rosa": {
+        "label": "Guida rosa",
+        "sizes": [
+          {
+            "taglia": 22,
+            "lunghezza_suola_cm": 13.2,
+            "larghezza_suola_cm": 5.7
+          },
+          {
+            "taglia": 23,
+            "lunghezza_suola_cm": 14.0,
+            "larghezza_suola_cm": 5.9
+          },
+          {
+            "taglia": 24,
+            "lunghezza_suola_cm": 14.6,
+            "larghezza_suola_cm": 6.1
+          },
+          {
+            "taglia": 25,
+            "lunghezza_suola_cm": 15.2,
+            "larghezza_suola_cm": 6.3
+          },
+          {
+            "taglia": 26,
+            "lunghezza_suola_cm": 16.0,
+            "larghezza_suola_cm": 6.5
+          },
+          {
+            "taglia": 27,
+            "lunghezza_suola_cm": 16.7,
+            "larghezza_suola_cm": 6.7
+          },
+          {
+            "taglia": 28,
+            "lunghezza_suola_cm": 17.3,
+            "larghezza_suola_cm": 6.8
+          },
+          {
+            "taglia": 29,
+            "lunghezza_suola_cm": 18.0,
+            "larghezza_suola_cm": 7.1
+          },
+          {
+            "taglia": 30,
+            "lunghezza_suola_cm": 18.8,
+            "larghezza_suola_cm": 7.2
+          }
+        ]
+      },
       "blu_notte": {
         "label": "Guida blu notte",
         "sizes": [

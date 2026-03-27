@@ -23,7 +23,8 @@ export default function Edit({ attributes, setAttributes }) {
         'giallo': { hex: '#FFD700', label: 'giallo' },
         'blu_notte': { hex: '#2E3A8C', label: 'blu notte' },
         'viola_prugna': { hex: '#7D3C98', label: 'viola prugna' },
-        'turchese_onda': { hex: '#14B8A6', label: 'turchese onda' }
+        'turchese_onda': { hex: '#14B8A6', label: 'turchese onda' },
+        'rosa': { hex: '#FF69B4', label: 'rosa' }
     };
 
     const currentColor = colorMap[sizeGuideColor] || colorMap['arancione'];
